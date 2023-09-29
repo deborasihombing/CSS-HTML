@@ -1,0 +1,65 @@
+div.a{
+    text-align: center;
+    background-color: rgb(1, 31, 19);
+    color: #fff;
+    font-family: Arial;
+    padding: 100px;
+}
+
+#datapribadi {
+    color:rgb(6, 70, 16);
+    font-family: Arial;
+}
+
+#tentang {
+    color: rgb(230, 235, 233);
+    font-family: Arial;
+    text-align: center;
+}
+
+#pendidikan {
+    color: rgb(6, 93, 31);
+    font-family: Arial;
+}
+
+#informasi {
+    color: rgb(6, 71, 17);
+    font-family: Arial;
+}
+
+footer {
+    text-align: center;
+    background-color: #045c13;
+    color: #fff;
+    padding: 100px;
+}
+
+#tentang::first-letter{
+    color:rgb(223, 230, 226);
+    font-size:70px;
+}
+
+.bulat{
+    width: 200px;
+    height: 100px;
+    background-color: rgb(3, 79, 19);
+    transition: 1s;
+    text-align: center;
+    line-height: 100px;
+    font-size: 35px;
+    font-family: Tahoma;
+    margin: 20px;
+    font-variant: inherit;
+}
+.container:hover .bulat{
+    transform: rotate(720deg);
+    margin-left: 1305px;
+    background-color: rgb(35, 152, 61);
+    color: #fff;
+}
+
+.centered-text {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+}
